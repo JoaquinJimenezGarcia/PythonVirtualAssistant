@@ -48,7 +48,7 @@ def jarvis(data):
         data = data.split(" ")
         location = data[2]
         speak("Espera Joaquín, te voy a enseñar dónde está " + location + ".")
-        webbrowser.get(chrome_path).open("https://www.google.nl/maps/place/" + location + "/&amp;")
+        webbrowser.get(chrome_path).open("https://www.google.es/maps/place/" + location + "/&amp;")
 
 time.sleep(2)
 speak("En qué puedo ayudarte?")
