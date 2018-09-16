@@ -1,0 +1,4 @@
+{
+    "python.jediEnabled": false,
+    "python.pythonPath": "/usr/local/bin/python3"
+}
